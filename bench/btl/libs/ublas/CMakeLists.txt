@@ -1,7 +1,3 @@
-
-find_package(Boost)
-if (Boost_FOUND)
-  include_directories(${Boost_INCLUDE_DIRS})
-  include_directories(${Boost_INCLUDES})
-  btl_add_bench(btl_ublas main.cpp)
-endif (Boost_FOUND)
+version https://git-lfs.github.com/spec/v1
+oid sha256:250935ebebbdb5a72522b3a4b6d2e00c6f0bbaff193996ef593e4f66838e5044
+size 180

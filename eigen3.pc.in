@@ -1,9 +1,3 @@
-prefix=@CMAKE_INSTALL_PREFIX@
-exec_prefix=${prefix}
-
-Name: Eigen3
-Description: A C++ template library for linear algebra: vectors, matrices, and related algorithms
-Requires:
-Version: @EIGEN_VERSION_NUMBER@
-Libs:
-Cflags: -I${prefix}/@INCLUDE_INSTALL_DIR@
+version https://git-lfs.github.com/spec/v1
+oid sha256:313bfeee07017aff84d7b6c7080958b3240b5c7420b4ada99d025ff0249d4ea8
+size 254

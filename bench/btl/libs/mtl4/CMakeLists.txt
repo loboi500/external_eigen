@@ -1,6 +1,3 @@
-
-find_package(MTL4)
-if (MTL4_FOUND)
-  include_directories(${MTL4_INCLUDE_DIR})
-  btl_add_bench(btl_mtl4 main.cpp)
-endif (MTL4_FOUND)
+version https://git-lfs.github.com/spec/v1
+oid sha256:af69ee6e88b2a1fb4712b31cc189e7bc5a5ee403336f5be4c4b95e4cb262a406
+size 133

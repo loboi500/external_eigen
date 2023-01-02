@@ -1,20 +1,3 @@
-FILE(GLOB examples_SRCS "*.cpp")
-
-ADD_CUSTOM_TARGET(unsupported_examples)
-
-INCLUDE_DIRECTORIES(../../../unsupported ../../../unsupported/test)
-
-FOREACH(example_src ${examples_SRCS})
-  GET_FILENAME_COMPONENT(example ${example_src} NAME_WE)
-  ADD_EXECUTABLE(example_${example} ${example_src})
-  if(EIGEN_STANDARD_LIBRARIES_TO_LINK_TO)
-    target_link_libraries(example_${example} ${EIGEN_STANDARD_LIBRARIES_TO_LINK_TO})
-  endif()
-  ADD_CUSTOM_COMMAND(
-    TARGET example_${example}
-    POST_BUILD
-    COMMAND example_${example}
-    ARGS >${CMAKE_CURRENT_BINARY_DIR}/${example}.out
-  )
-  ADD_DEPENDENCIES(unsupported_examples example_${example})
-ENDFOREACH(example_src)
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7b9502a12624f0f6466ddfc8332703a27a9c7ca86dfc5c99eae6ba496932708
+size 667

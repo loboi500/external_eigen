@@ -1,13 +1,3 @@
-## This file should be placed in the root directory of your project.
-## Then modify the CMakeLists.txt file in the root directory of your
-## project to incorporate the testing dashboard.
-## # The following are required to uses Dart and the Cdash dashboard
-##   ENABLE_TESTING()
-##   INCLUDE(CTest)
-set(CTEST_PROJECT_NAME "Eigen3.3")
-set(CTEST_NIGHTLY_START_TIME "00:00:00 UTC")
-
-set(CTEST_DROP_METHOD "http")
-set(CTEST_DROP_SITE "manao.inria.fr")
-set(CTEST_DROP_LOCATION "/CDash/submit.php?project=Eigen3.3")
-set(CTEST_DROP_SITE_CDASH TRUE)
+version https://git-lfs.github.com/spec/v1
+oid sha256:658ed6a8439dea171bd77dfaf77cde5a5b5e07926afaefea81527e965b5022ab
+size 541

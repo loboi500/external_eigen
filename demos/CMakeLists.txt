@@ -1,13 +1,3 @@
-project(EigenDemos)
-
-add_custom_target(demos)
-
-if(NOT EIGEN_TEST_NOQT)
-  find_package(Qt4)
-  if(QT4_FOUND)
-    add_subdirectory(mandelbrot)
-    add_subdirectory(opengl)
-  else(QT4_FOUND)
-    message(STATUS "Qt4 not found, so disabling the mandelbrot and opengl demos")
-  endif(QT4_FOUND)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:24ace92e1335eba93cd211c38d88ca7bd175abb6e26bb822a1263e2fd02f99a9
+size 296

@@ -1,6 +1,3 @@
-get_property(EIGEN_TESTS_LIST GLOBAL PROPERTY EIGEN_TESTS_LIST)
-configure_file(buildtests.in ${CMAKE_BINARY_DIR}/buildtests.sh @ONLY)
-
-configure_file(check.in ${CMAKE_BINARY_DIR}/check.sh COPYONLY)
-configure_file(debug.in ${CMAKE_BINARY_DIR}/debug.sh COPYONLY)
-configure_file(release.in ${CMAKE_BINARY_DIR}/release.sh COPYONLY)
+version https://git-lfs.github.com/spec/v1
+oid sha256:f55469d97b8a00df55c67fd02a4b928f50d064dff8d8d115e7b9b304c6be1435
+size 328
